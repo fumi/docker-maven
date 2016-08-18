@@ -7,5 +7,5 @@ RUN apt-get install -y \
     git \
     maven \
     openjdk-7-jdk \
-    wget
-RUN rm -rf /var/lib/apt/lists/*
+    wget \
+ && rm -rf /var/lib/apt/lists/*
